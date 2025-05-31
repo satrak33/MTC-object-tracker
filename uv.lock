@@ -17,6 +17,7 @@ dependencies = [
     { name = "opencv-contrib-python" },
     { name = "opencv-python" },
     { name = "pillow" },
+    { name = "pydirectinput-rgx" },
     { name = "pywin32" },
 ]
 
@@ -27,6 +28,7 @@ requires-dist = [
     { name = "opencv-contrib-python", specifier = ">=4.11.0.86" },
     { name = "opencv-python", specifier = ">=4.11.0.86" },
     { name = "pillow", specifier = ">=11.2.1" },
+    { name = "pydirectinput-rgx", specifier = ">=2.1.2" },
     { name = "pywin32", specifier = ">=310" },
 ]
 
@@ -162,6 +164,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/b3/92/1ca0c3f09233bd7decf8f7105a1c4e3162fb9142128c74adad0fb361b7eb/pillow-11.2.1-cp313-cp313t-win32.whl", hash = "sha256:e0b55f27f584ed623221cfe995c912c61606be8513bfa0e07d2c674b4516d9dd", size = 2335774 },
     { url = "https://files.pythonhosted.org/packages/a5/ac/77525347cb43b83ae905ffe257bbe2cc6fd23acb9796639a1f56aa59d191/pillow-11.2.1-cp313-cp313t-win_amd64.whl", hash = "sha256:36d6b82164c39ce5482f649b437382c0fb2395eabc1e2b1702a6deb8ad647d6e", size = 2681895 },
     { url = "https://files.pythonhosted.org/packages/67/32/32dc030cfa91ca0fc52baebbba2e009bb001122a1daa8b6a79ad830b38d3/pillow-11.2.1-cp313-cp313t-win_arm64.whl", hash = "sha256:225c832a13326e34f212d2072982bb1adb210e0cc0b153e688743018c94a2681", size = 2417234 },
+]
+
+[[package]]
+name = "pydirectinput-rgx"
+version = "2.1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/0f/ab/482564b28e7c208024b258699b9ab2f4a05346f3d6d51ed376ced7442be3/pydirectinput_rgx-2.1.2.tar.gz", hash = "sha256:53796415071fbe784f0db084ead9363e99d59c9f958a656e30b42f0eb91010f6", size = 39705 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/90/49/6a2280dd4856658c74f35ce8061a6c9b5ad893ae006610e0c5c9a70ed724/pydirectinput_rgx-2.1.2-py3-none-any.whl", hash = "sha256:06842ecdc479055b94282f2201a43230af34c16a1801215b3064ae0efbe7daeb", size = 36035 },
 ]
 
 [[package]]
