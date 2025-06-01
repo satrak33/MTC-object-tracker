@@ -67,12 +67,12 @@ def take_window_screenshot(title):
         win32gui.ReleaseDC(hwnd, hwndDC)
 
         return img
-    except win32ui.error as e:
+    except win32ui.error:
         if 'saveDC' in locals() and saveDC.GetSafeHdc(): saveDC.DeleteDC()
         if 'mfcDC' in locals() and mfcDC.GetSafeHdc(): mfcDC.DeleteDC()
         if 'hwndDC' in locals() and hwndDC: win32gui.ReleaseDC(hwnd, hwndDC)
         return None
-    except Exception as e:
+    except Exception:
         return None
 
 

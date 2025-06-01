@@ -12,4 +12,5 @@ dependencies = [
     "pillow>=11.2.1",
     "pydirectinput-rgx>=2.1.2",
     "pywin32>=310",
+    "ruff>=0.11.12",
 ]

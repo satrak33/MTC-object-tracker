@@ -1,6 +1,5 @@
 import pydirectinput
 import math
-import time # Додано для можливих пауз у циклі
 
 # Рекомендація: pydirectinput може вимагати прав адміністратора.
 # Встановлення: pip install pydirectinput
